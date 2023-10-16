@@ -2,7 +2,7 @@
 
 import { program } from "commander";
 
-import * as contactsService from "./db/contacts.js";
+import * as contactsService from "./contacts.js";
 
 const invokeAction = async ({ action, id, name, email, phone }) => {
   switch (action) {
